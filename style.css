@@ -24,6 +24,8 @@ hr {
     margin-left: 15px;
 }
 
+
+/* My Story section */
 .my-story {
     height: 95vh;
     background-color: #122A4D;
@@ -47,6 +49,7 @@ hr {
     width: 300px;
 }
 
+/* Experience section */
 .experience {
     height: 95vh;
     padding: 50px;
@@ -135,11 +138,15 @@ hr {
     color: rgba(0, 0, 0, 0.5);
 }
 
+/* Drivense section */
 .drivense {
     background-color: #BC0000;
     color: #F0F0F0;
-    height: 1000px;
+    height: 1050px;
     padding: 20px;
+}
+
+.drivense .the-story {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -150,9 +157,21 @@ hr {
     margin: auto;
 }
 
+
+/* Projects section */
 .projects {
-    height: 300px;
+    height: 800px;
     background-color: #048500;
     color: #F0F0F0;
     padding: 20px;
+}
+
+.projects img {
+    height: 200px;
+}
+
+.projects .app {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 20px;
 }

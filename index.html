@@ -20,7 +20,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <div class="collapse navbar-collapse" id="navbarNav">
-            <img class="navbar-brand" src="img/PersonalLogo.jpg" alt="" width="150px">
+            <a href="#top"><img class="navbar-brand" src="img/PersonalLogo.jpg" alt="" width="150px"></a>
             <ul class="navbar-nav">
                 <li class="nav-item">
                     <a href="#my-story" class="nav-link">My Story</a>
@@ -38,9 +38,12 @@
         </div>
     </nav>
 
-    <main role="main" class="jumbotron text-center">
+    <main role="main" class="jumbotron text-center" id="top">
         <div class="cover-text">
-            <h1 class="cover-heading">Hafiz Bhuyan</h1>
+            <!-- <h1 class="cover-heading">Hafiz Bhuyan</h1> -->
+            <div class="personal-logo">
+                <img src="img/PersonalLogo.jpg" alt="">
+            </div>
             <!-- <p class="lead">Student. Entrepreneur. </p> -->
             <p><span id="holder"></span><span class="blinking-cursor">|</span></p>
         </div>
@@ -129,42 +132,105 @@
     <section id="drivense" class="drivense">
         <div class="container text-center">
             <h1 class="display-4">Drivense</h1>
-            <p class="lead title">
-                <u>The Beginning</u>
-            </p>
-            <p class="lead">
-                Drivense was a product of the mix of being a frustrated consumer and wanting to
-                build something from scratch. During the spring semester of my freshman year, I
-                was part of, and now lead, an organization called the Society of Entrepreneurs.
-                This was a group made up of student entrepreneurs, all with active businesses, turning their
-                passions into paychecks. Over the summer of 2018, I wanted to build something of my own, and while
-                looking for my assigned textbooks, I got confused with the high prices. After a few days, while I
-                was listening to Spotify the gears in my head started turning. How can Netflix and Spotify host
-                millions of movies, tv shows and music and charge just a few dollars per month? I decided to apply
-                the concept behind those two companies to college textbooks and Drivense was born.
-            </p>
-            <p class="lead title">
-                <u>2019 JMU Summer Accelerator</u>
-            </p>
-            <p class="lead">
-                Drivense was accepted into the 2019 JMU Summer Accelerator. During the 3 months, the company
-                joined 7 other startups from JMU to collaborate on ideas and solve problems together for each
-                of our companies. We were also given a $4,000 stipend and given invaluable mentorship on
-                the Lean Startup, Doings Things That Don't Scale, Branding, building a Mean Viable Product(MVP),
-                and pitching our companies. At the end of this, on September, each company was given the opportunity
-                to pitch in front of an audience of JMU's President, College Deans, the Provost, and notable alumni.
-                It's hard to describe in words what the experience was like, but it was invaluable.
-            </p>
-        </div>
-        <div class="pictures">
-            <a target="_default" href="https://www.drivense.com"><img src="img/LogoWithTagline.PNG" alt=""></a>
-            <img src="img/The Drivense Founding Team.jpg" alt="" width="300px">
+
+            <div class="the-story">
+                <div class="words">
+                    <p class="lead title">
+                        <u>The Beginning</u>
+                    </p>
+                    <p class="lead">
+                        Drivense was a product of the mix of being a frustrated consumer and wanting to
+                        build something from scratch. During the spring semester of my freshman year, I
+                        was part of, and now lead, an organization called the Society of Entrepreneurs.
+                        This was a group made up of student entrepreneurs, all with active businesses, turning their
+                        passions into paychecks. Over the summer of 2018, I wanted to build something of my own, and
+                        while
+                        looking for my assigned textbooks, I got confused with the high prices. After a few days, while
+                        I
+                        was listening to Spotify the gears in my head started turning. How can Netflix and Spotify host
+                        millions of movies, tv shows and music and charge just a few dollars per month? I decided to
+                        apply
+                        the concept behind those two companies to college textbooks and Drivense was born.
+                    </p>
+                    <p class="lead title">
+                        <u>2019 JMU Summer Accelerator</u>
+                    </p>
+                    <p class="lead">
+                        Drivense was accepted into the 2019 JMU Summer Accelerator. During the 3 months, the company
+                        joined 7 other startups from JMU to collaborate on ideas and solve problems together for each
+                        of our companies. We were also given a $4,000 stipend and given invaluable mentorship on
+                        the Lean Startup, Doings Things That Don't Scale, Branding, building a Mean Viable Product(MVP),
+                        and pitching our companies. At the end of this, on September, each company was given the
+                        opportunity
+                        to pitch in front of an audience of JMU's President, College Deans, the Provost, and notable
+                        alumni.
+                        It's hard to describe in words what the experience was like, but it was invaluable.
+                    </p>
+                </div>
+                <div class="pictures">
+                    <a target="_default" href="https://www.drivense.com"><img src="img/LogoWithTagline.PNG" alt=""></a>
+                    <img src="img/The Drivense Founding Team.jpg" alt="" width="300px">
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="projects" class="projects">
         <div class="container text-center">
             <h1 class="display-4">Other Projects</h1>
+
+            <!-- A Stellar Journey -->
+            <div class="app">
+                <div class="description">
+                    <p class="lead title">
+                        <u>A Stellar Journey</u>
+                    </p>
+                    <p class="lead">
+                        An infinite runner game where the player uses a rocket ship to fly across the sky and space
+                        while dodging clouds, airplanes, and UFOs.<br>Available for iOS and Android.
+                        <br>Built using Unity and C#.
+                    </p>
+                </div>
+                <div class="screenshots">
+                    <img src="img/AndroidMockup1.png" alt="" srcset="">
+                    <img src="img/iPhoneMockup1.png" alt="" srcset="">
+                </div>
+            </div>
+
+            <div class="app">
+                <div class="description">
+                    <p class="lead title">
+                        <u>The Magic Rock</u>
+                    </p>
+                    <p class="lead">
+                        A randomizer that helps people decide what movie to watch, where to eat when going out, where to
+                        travel for vacation and more.<br>In development. Estimated release date: Thanksgiving week.
+                        <br>Built using React Native.
+                    </p>
+                </div>
+                <div class="screenshots">
+                    <!-- Put screenshots here -->
+                </div>
+            </div>
+
+            <div class="app">
+                <div class="description">
+                    <p class="lead title">
+                        <u>Earth Defender</u>
+                    </p>
+                    <p class="lead">
+                        A tower defense game where the player places turrets on the bottom of the screen while aliens
+                        invade.<br>In development. Estimated release date: mid-December.<br>Built using Unity and C#.
+                    </p>
+                </div>
+                <div class="screenshots">
+                    <!-- Put screenshots here -->
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+
         </div>
     </section>
 </body>
