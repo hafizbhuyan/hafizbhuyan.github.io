@@ -142,7 +142,7 @@ hr {
 .drivense {
     background-color: #BC0000;
     color: #F0F0F0;
-    height: 1050px;
+    height: 1000px;
     padding: 20px;
 }
 
@@ -157,10 +157,13 @@ hr {
     margin: auto;
 }
 
+.drivense .the-story .lead {
+    font-size: 16px;
+}
 
 /* Projects section */
 .projects {
-    height: 800px;
+    height: 600px;
     background-color: #048500;
     color: #F0F0F0;
     padding: 20px;
