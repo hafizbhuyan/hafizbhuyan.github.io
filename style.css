@@ -28,8 +28,8 @@ hr {
 /* My Story section */
 .my-story {
     height: 95vh;
-    background-color: #122A4D;
-    color: #FFFFFF;
+    background-color: #F6F7EB;
+    color: #141414;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -134,14 +134,14 @@ hr {
     font-size: 11px;
     height: 30px;
     line-height: 30px;
-    color: #FFFFFF;
+    color: #FBFEF9;
     color: rgba(0, 0, 0, 0.5);
 }
 
 /* Drivense section */
 .drivense {
-    background-color: #BC0000;
-    color: #F0F0F0;
+    background-color: #E3D7FF;
+    color: #141414;
     height: 1000px;
     padding: 20px;
 }
@@ -164,8 +164,8 @@ hr {
 /* Projects section */
 .projects {
     height: 600px;
-    background-color: #048500;
-    color: #F0F0F0;
+    background-color: #F2F4FF;
+    color: #141414;
     padding: 20px;
 }
 
