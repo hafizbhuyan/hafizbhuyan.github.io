@@ -25,6 +25,7 @@ body::-webkit-scrollbar-thumb {
 
 a {
     text-decoration: none;
+    color: #6ADCFA;
 }
 
 h2 {
@@ -127,6 +128,26 @@ hr {
 
 .my-story .paragraph {
     padding: 0 1rem;
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+}
+
+.my-story .paragraph .pictures img {
+    width: 50%;
+    height: auto;
+}
+
+.my-story .paragraph .pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.my-story .paragraph .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .my-story .paragraph h4 {
@@ -251,6 +272,7 @@ hr {
 
 .drivense .section h4 {
     padding: 0.50rem 0;
+    font-weight: 500;
 }
 
 .projects {
