@@ -25,7 +25,7 @@ body::-webkit-scrollbar-thumb {
 
 a {
     text-decoration: none;
-    color: #6ADCFA;
+    color: red;
 }
 
 h2 {
@@ -95,7 +95,9 @@ hr {
     height: 85vh;
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    background: linear-gradient(#000428, #004E92);
+    background-color: #FBFEF9;
+    color: #000428;
+    border-bottom: #000428 2px solid;
 }
 
 .header .text {
@@ -119,7 +121,9 @@ hr {
     width: 100%;
     height: auto;
     padding: 2rem 0;
-    background: linear-gradient(#614385, #516395);
+    background-color: #FBFEF9;
+    color: #000428;
+    border-bottom: #000428 2px solid;
 }
 
 .my-story hr {
@@ -166,7 +170,9 @@ hr {
     height: auto;
     padding: 1rem 0;
     text-align: center;
-    background: linear-gradient(#4568dc, #b06ab3);
+    background-color: #FBFEF9;
+    color: #000428;
+    border-bottom: #000428 2px solid;
 }
 
 .my-experience hr {
@@ -259,7 +265,9 @@ hr {
     width: 100%;
     height: auto;
     padding: 1rem 0;
-    background: linear-gradient(#753A88,#CC2B5E);
+    background-color: #FBFEF9;
+    color: #000428;
+    border-bottom: #000428 2px solid;
 }
 
 .drivense hr {
@@ -279,7 +287,8 @@ hr {
     width: 100%;
     height: auto;
     padding: 1rem 0;
-    background: linear-gradient(#c33764, #1d2671);
+    background-color: #FBFEF9;
+    color: #000428;
 }
 
 .projects hr {
