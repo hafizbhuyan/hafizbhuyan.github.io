@@ -52,10 +52,6 @@ class Navbar extends Component {
 class Header extends Component {
 	constructor(props) {
 		super(props)
-		this.state = {
-			stateButton: 0
-		}
-		this.variableButton = 0
 	}
 
 	componentDidMount = () => {
@@ -85,12 +81,6 @@ class Header extends Component {
 					<div className='text'>
 						<h2>Hafiz Bhuyan</h2>
 						<h4><span id="holder"></span><span class="blinking-cursor">|</span></h4>
-						<button onClick={() => this.setState({ stateButton: this.state.stateButton + 1 })}>
-							<h4>I was clicked {this.state.stateButton} times</h4>
-						</button>
-						<button onClick={() => this.variableButton++}>
-							<h4>I was clicked {this.variableButton} times</h4>
-						</button>
 					</div>
 
 					<div className='links'>
