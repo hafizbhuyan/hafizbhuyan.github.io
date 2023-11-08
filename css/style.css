@@ -386,11 +386,11 @@ text-align: center;
 }
 
 .home .intro .social-links a{
-	height: 35px;
-	width: 35px;
+	height: 50px;
+	width: 50px;
 	display: inline-block;
 	text-align: center;
-	line-height: 35px;
+	line-height: 50px;
 	color: #ffffff;
 	margin:0 4px;
 	border-radius: 50%;
