@@ -135,6 +135,10 @@ select {
 	position: relative;
 }
 
+.card {
+	margin: 5px;
+}
+
 .padd-15 {
 	padding-left: 15px;
 	padding-right: 15px;
@@ -519,6 +523,7 @@ select {
 	margin-bottom: 30px;
 	font-weight: 700;
 	color: #302e4d;
+	margin-top: 10px;
 }
 
 .about .about-content .timeline-box {
